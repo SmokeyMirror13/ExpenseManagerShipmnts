@@ -11,7 +11,7 @@ class App extends React.Component {
                 <div>
                     <Header />
                     <Route path='/' exact component={() => {
-                        return(<div><Header /></div>)
+                        return(<h1>Index</h1>)
                     }} />
                     <Route path='/signin' exact component={SignIn} />
                     {/* <Route path='/signup' exact component={Signup} /> */}
